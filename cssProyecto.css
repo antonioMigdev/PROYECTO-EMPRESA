@@ -10,7 +10,9 @@ header section{
 
 display: flex;
 justify-content: space-between;
-
+background-color:beige;
+position: sticky;
+top: 0%;
 }
 
 nav ul{
@@ -35,15 +37,20 @@ text-decoration: underline;
 #imgLogo{
     width: 100px;
     height: 200px;
-
-}
+    border: solid 3px black;
+    border-radius: 10px;
+   }
 #imgTelefono{
     width: 50px;
     height: 50px;
+    border: solid 3px black;
+    border-radius: 10px;
 }
 #imgAgenda{
     width: 50px;
     height: 50px;
+    border: solid 3px black;
+    border-radius: 10px;
 }
 #Click{
 color: orange;
@@ -56,4 +63,10 @@ color: orange;
 }
 #Code{
     color: darkviolet;
+}
+
+body{
+
+background-color: chocolate;
+
 }
